@@ -1,6 +1,6 @@
 
-#DM 109 Fall 2020: Course Repository#
-###PROJECT MEMBERS###
+                                          #DM 109 Fall 2020: Course Repository#
+## PROJECT MEMBERS ##
 StdID | Name
 ------------ | -------------
 **64293** | **Mohsin Amin** 
