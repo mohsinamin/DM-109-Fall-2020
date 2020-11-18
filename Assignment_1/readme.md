@@ -8,16 +8,16 @@ This repository contains assignment to implement floyd warshall algorithm in (ja
 //Input: Adjacency Matrix
 //Output: Transitive Closure
 
-  R(0) <- A
-for k <- 1 to n do
+    R(0) <- A
+    for k <- 1 to n do
 
-  for i <- 1 to n do
+      for i <- 1 to n do
 
-    for j <- 1 to n do
+        for j <- 1 to n do
+  
+            R(k)[i,j] <- R(k-1)[i,j] or R(k-1)[i,k] and R(k)[k,j]
 
-        R(k)[i,j] <- R(k-1)[i,j] or R(k-1)[i,k] and R(k)[k,j]
-
-Return R(n)
+      Return R(n)
  
 ## Time Complexity ##
 
