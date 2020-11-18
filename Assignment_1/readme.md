@@ -6,6 +6,7 @@ This repository contains assignment to implement floyd warshall algorithm in (ja
 
 ## Algorithm: ##
 //Input: Adjacency Matrix
+
 //Output: Transitive Closure
 
     R(0) <- A
@@ -21,20 +22,19 @@ This repository contains assignment to implement floyd warshall algorithm in (ja
  
 ## Time Complexity ##
 
-O(n^3)
+Time Complexity is : O(n^3)
 Thus the time complexity is n^3 because there are 3 loops and each loop is running n times So, n x n x n is n^3 
 
 ## User Input : Comma Separated ##
 Userinput is taken in single dimensional array whereas if comma found donot store in 2d array then a single dimensional array is converted into 2D array which is the requirement to implement floyd Warshall.
 
-The name "Transitive Closure"  means 
-      the transitive property if a is related to b and b is related to c then a is related to c.
+The name "Transitive Closure"  means the transitive property if a is related to b and b is related to c then a is related to c.
       
-Since Relations are mapped on 2D matrix which is the better approach ans instead of using airthematic operations, we are using logical operators.
+Since Relations are mapped on 2D matrix which is the better approach and instead of using airthematic operations, we are using logical operators.
 For ("+") -> ("&&") is used.
 For minimum -> ("||") is used.
 Though it is based on logic both approaches are far better to implement floyd warshall algorithm.
 
 
-## Web Hosted ##
+## Solution: (Web Hosted) ##
 http://www.dmfall2020.byethost3.com/
