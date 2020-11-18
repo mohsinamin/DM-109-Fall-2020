@@ -22,8 +22,7 @@ This repository contains assignment to implement floyd warshall algorithm in (ja
 ## Time Complexity ##
 
 O(n^3)
-Thus the time complexity is n^3 because there are 3 loops and each loop is running n times So,
-          n*n*n is n^3 
+Thus the time complexity is n^3 because there are 3 loops and each loop is running n times So, n x n x n is n^3 
 
 ## User Input : Comma Separated ##
 Userinput is taken in single dimensional array whereas if comma found donot store in 2d array then a single dimensional array is converted into 2D array which is the requirement to implement floyd Warshall.
