@@ -36,5 +36,6 @@ For minimum -> ("||") is used.
 Though it is based on logic both approaches are far better to implement floyd warshall algorithm.
 
 
-## Solution: (Web Hosted) ##
+## Solution: (Web Hosted and Youtube Link) ##
 http://www.dmfall2020.byethost3.com/
+https://youtu.be/fa_LeHqCJdY
