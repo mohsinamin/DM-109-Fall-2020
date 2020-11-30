@@ -10,7 +10,7 @@ window.onload = function() {
 	btnRun = document.getElementById('btnRun');
 	var n =window.prompt("Enter size");
 	createMatrix(n);
-	FwAlgo();
+
 
 } //end window.onload
 
@@ -22,6 +22,7 @@ function createMatrix (n) {
 	  innerArr = [];
 	  for (var j=0; j<n; j++) {
 		//innerArr.push(0);
+		for (var k=0;k<n*n;k++){
 		var y =Math.random();
 		if(y<0.5){
 			y =Math.floor(y)
@@ -29,15 +30,17 @@ function createMatrix (n) {
 		else{
 		y= Math.ceil(y)
 		}
-
+	}
+	outerArr.push(y);
+	
 	  }
-	  outerArr.push(y);
+	//  outerArr.push(y);
 	
 }
 console.log(outerArr);
+FwAlgo();
 }
   
-
 
 function runFwAlgo(){
 	console.log("Running Floyd Warshall")
